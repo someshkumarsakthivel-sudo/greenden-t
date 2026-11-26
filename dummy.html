@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docum</title>
+</head>
+<body>
+<style>
+  .main{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+  .head{
+    background-color: aqua;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle{
+    background-color: azure;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer{
+    background-color: bisque;
+    margin: 5px;
+    display: grid;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .m-1{
+    background-color: aquamarine;
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .m-2{
+    background-color: burlywood;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .m-21{
+background-color: brown;
+margin: 5px;
+display: grid;
+justify-content: center;
+    align-items: center;
+  }
+  .m-22{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+.m-221{
+  background-color: black;
+  margin: 5px;
+  color: white;
+  display: grid;
+justify-content: center;
+    align-items: center;
+}
+.m-222{
+  background-color: black;
+  margin:5px ;
+  color: white;
+  display: grid;
+justify-content: center;
+    align-items: center;
+}
+.m-223{
+  background-color: black;
+  margin: 5px;
+  color: white;
+  display: grid;
+justify-content: center;
+    align-items: center;
+}
+</style>
+<div class="main">
+
+ <div class="head">
+      header
+    </div>
+
+    <div class="middle">
+      <div class="m-1">Asider</div>
+      <div class="m-2">
+        <div class="m-21">
+          article
+        </div>
+        <div class="m-22">
+          <div class="m-221">image</div>
+          <div class="m-222">image</div>
+          <div class="m-223">image</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      footer
+    </div>
+
+</div>
+   
+</body>
+</html>
